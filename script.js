@@ -28,3 +28,4 @@ const playSound = e => {
     window.addEventListener('keydown', playSound);
     window.addEventListener('touchstart', playSound);
     window.addEventListener('click', playSound);
+    
