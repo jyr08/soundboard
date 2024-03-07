@@ -22,8 +22,21 @@ body {
   min-height: 100vh;
 }
 
+p {
+  color:white;
+  font-size: 1rem;
+  animation: var(--animation-blink);
+}
 
 
+.header {
+  text-align: center;
+  color: gray;
+  font-size: 1.5rem;
+  
+  
+
+}
 /* Actual Keyboard Keys */
 kbd {
   display: block;
@@ -34,7 +47,8 @@ kbd {
 .sound {
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
-  color: #e2e2e2;
+  color: rgb(255, 255, 255);
+  font-style: italic;
 }
 
 /* Use CSS Grid to display keys */
@@ -46,6 +60,7 @@ kbd {
   -webkit-box-pack: center;
           justify-content: center;
   position: relative;
+  color: white;
 }
 
 /* Visual Keys / Squares */
@@ -54,11 +69,12 @@ kbd {
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem 0.5rem;
+  
 
   /* Styling of keys */
   width: 10rem;
   text-align: center;
-  outline: 1px solid rgb(255, 252, 252);
+  outline: 1px solid rgb(255, 255, 255);
   
   /* Change mouse pointer */
   cursor:pointer;
